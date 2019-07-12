@@ -10,13 +10,7 @@ This is a simple color palette generator for Android. Use it to generate beautif
 
 Screenshots:
 
-![Screenshot-1](https://user-images.githubusercontent.com/29485313/61128953-f1e54c80-a4d0-11e9-83c7-9ad5e8e87281.png)
-
-![Screenshot-2](https://user-images.githubusercontent.com/29485313/61128918-d7ab6e80-a4d0-11e9-80d2-5f1a93a57b10.png)
-
-![Screenshot-3](https://user-images.githubusercontent.com/29485313/61128976-06294980-a4d1-11e9-8448-800c4916c9e6.png)
-
-![Screenshot-4](https://user-images.githubusercontent.com/29485313/61128994-117c7500-a4d1-11e9-8f3e-cc81f989d8c4.png)
+![Screenshots](https://user-images.githubusercontent.com/29485313/61129931-2a862580-a4d3-11e9-8370-d8501e9e9fd1.png)
 
 Google Play link will be available very soon...
 
