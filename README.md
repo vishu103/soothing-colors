@@ -15,7 +15,7 @@ Screenshots:
 
 ![Screenshots](https://user-images.githubusercontent.com/29485313/61129931-2a862580-a4d3-11e9-8370-d8501e9e9fd1.png)
 
-Sooting Colors for Android:
+Soothing Colors for Android:
 
 ![GooglePlayLink](https://user-images.githubusercontent.com/29485313/61143889-12bd9a00-a4f1-11e9-90ce-73d190532653.jpg)
 
