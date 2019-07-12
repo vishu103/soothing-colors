@@ -17,6 +17,6 @@ Screenshots:
 
 Sooting Colors for Android:
 
-![GooglePlayLink](https://user-images.githubusercontent.com/29485313/61131843-cb76df80-a4d7-11e9-8ea1-0659c1f0d510.png)
+![GooglePlayLink](https://user-images.githubusercontent.com/29485313/61143430-d5a4d800-a4ef-11e9-95f4-46cf6ac292d5.jpg)
 
 **The Github community can contribute freely as all the apps under this pledge will be open-source.**
