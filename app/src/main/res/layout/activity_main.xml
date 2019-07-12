@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/division1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="division1click"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/division1_hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="#FFFFFF"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/division2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="division2click"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/division2_hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="#FFFFFF"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/division3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="division3click"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/division3_hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="#FFFFFF"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/division4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="division4click"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/division4_hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="#FFFFFF"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
