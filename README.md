@@ -15,7 +15,7 @@ Screenshots:
 
 ![Screenshots](https://user-images.githubusercontent.com/29485313/61129931-2a862580-a4d3-11e9-8370-d8501e9e9fd1.png)
 
-Soothing Colors for Android:
+Soothing Colors for Android: [Download apk file here](https://drive.google.com/file/d/1KqFHv_hOqM7GnRwypWcVy9_hWEkq7s2X)
 
 [![GooglePlayLink](https://user-images.githubusercontent.com/29485313/61143889-12bd9a00-a4f1-11e9-90ce-73d190532653.jpg)](https://play.google.com/store/apps/details?id=in.edureal.soothingcolors)
 
