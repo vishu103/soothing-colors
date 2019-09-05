@@ -11,6 +11,10 @@ This is a simple color palette generator for Android. Use it to generate beautif
 
 **Clone and import in Android Studio to mess around.**
 
+#### Changelog
+1. 5th September 2019 - Added support for displaying ads in the app.
+1. 5th September 2019 - Added support for AndroidX.
+
 Screenshots:
 
 ![Screenshots](https://user-images.githubusercontent.com/29485313/61129931-2a862580-a4d3-11e9-8370-d8501e9e9fd1.png)

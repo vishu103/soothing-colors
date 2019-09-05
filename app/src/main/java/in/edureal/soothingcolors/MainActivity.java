@@ -5,7 +5,6 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -13,6 +12,13 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
     private String color3_hex;
     private String color4_hex;
 
+    private static int clickNum=0;
+
+    private InterstitialAd interstitialAd;
+
     private String toBrowserHexValue(int number){
         StringBuilder builder = new StringBuilder(Integer.toHexString(number & 0xff));
         while (builder.length() < 2) {
@@ -50,24 +60,40 @@ public class MainActivity extends AppCompatActivity {
         return (int) randomDouble;
     }
 
+    private void clickFunction(){
+        clickNum++;
+        if(clickNum==20){
+            if(interstitialAd.isLoaded()){
+                interstitialAd.show();
+            }else{
+                interstitialAd.loadAd(new AdRequest.Builder().build());
+            }
+            clickNum=0;
+        }
+    }
+
     public void division1click(View view){
         generateDivision1Colors();
         setDivision1Colors();
+        clickFunction();
     }
 
     public void division2click(View view){
         generateDivision2Colors();
         setDivision2Colors();
+        clickFunction();
     }
 
     public void division3click(View view){
         generateDivision3Colors();
         setDivision3Colors();
+        clickFunction();
     }
 
     public void division4click(View view){
         generateDivision4Colors();
         setDivision4Colors();
+        clickFunction();
     }
 
     private void generateDivision1Colors(){
@@ -201,6 +227,18 @@ public class MainActivity extends AppCompatActivity {
                 clipboard.setPrimaryClip(clip);
                 Toast.makeText(MainActivity.this, "Copied to Clipboard", Toast.LENGTH_SHORT).show();
                 return true;
+            }
+        });
+
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
+        interstitialAd=new InterstitialAd(this);
+        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        interstitialAd.loadAd(new AdRequest.Builder().build());
+        interstitialAd.setAdListener(new AdListener(){
+            @Override
+            public void onAdClosed() {
+                super.onAdClosed();
+                interstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
 
